@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+
+}
+.container {
+    width: calc(100% - 240px);
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+a {
+    color: #5B5B5B;
+    text-decoration: none;
+    font-family: var(--primaryfont);
+}
+ul {
+    list-style-type: none;
+}
+h2 {
+    font-family: var(--primaryfont);
+}
